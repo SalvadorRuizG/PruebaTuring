@@ -1,14 +1,28 @@
 /* src/components/styles/App.module.css */
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Poppins:wght@400;700&family=Open+Sans:wght@400;700&display=swap');
+
 body {
     margin: 0;
     padding: 0;
     background-color: #c7d2d9;
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    font-family: 'Open Sans', sans-serif;
 }
 
 .App {
-    font-family: 'Arial', sans-serif;
+    /* font-family: 'Arial', sans-serif; */
     margin: 0;
     padding: 0;
     display: flex;
@@ -18,21 +32,18 @@ body {
     min-height: 100vh;
 }
 
-/* header {
-    background-color: #007bff;
-    color: white;
-    padding: 20px;
-    width: 100%;
-    text-align: center;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-} */
-
-footer {
-    background-color: #007bff;
-    color: white;
-    padding: 10px;
-    width: 100%;
-    text-align: center;
-    position: absolute;
-    bottom: 0;
+/* App.module.css */
+.catalog-description-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
 }
+
+.product-catalog, .product-description {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+

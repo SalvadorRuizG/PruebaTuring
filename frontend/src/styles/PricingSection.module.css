@@ -1,0 +1,94 @@
+/* PricingSection.module.css */
+.pricingSection {
+    padding: 50px 20px;
+    /* background-color: #f9f9f9; */
+    text-align: center;
+}
+
+.featuresContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.featureBox {
+    background-color: #112e40;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 200px;
+    height: 350px;
+    text-align: left;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.centerBox {
+    width: 300px; /* Más ancho para el cuadro central */
+    height: 550px;
+    background-color: #1ec984;
+}
+
+.featureBox h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #1ec984;
+}
+
+.featureBox ul {
+    list-style-type: none; /* Elimina el estilo de lista por defecto */
+    padding: 0;
+    margin: 0;
+}
+
+.featureBox li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: white;
+    position: relative;
+    padding-left: 25px; /* Espacio para el símbolo */
+}
+
+.featureBox li::before {
+    content: '●'; /* Símbolo personalizado */
+    font-size: 18px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #1ec984; /* Color por defecto */
+}
+
+.centerBox h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #112e40;
+}
+
+.centerBox ul {
+    list-style-type: none; /* Elimina el estilo de lista por defecto */
+    padding: 0;
+    margin: 0;
+}
+
+.centerBox li {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: white;
+    position: relative;
+    padding-left: 25px; /* Espacio para el símbolo */
+}
+
+.centerBox li::before {
+    content: '●'; /* Símbolo personalizado */
+    font-size: 18px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #112e40; /* Color por defecto */
+}
+
+
+
+

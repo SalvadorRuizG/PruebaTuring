@@ -1,0 +1,63 @@
+/* TeamSection.module.css */
+.teamSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px; 
+    /* background-color: #f4f4f4; */
+}
+
+.content {
+    display: flex;
+    width: 100%;
+    max-width: 2000px; 
+}
+
+.textContainer {
+    flex: 1;
+    padding: 100px;
+    background-color: #112e40;
+    text-align: center;
+}
+
+.textContainer h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #1ec984;
+}
+
+.textContainer p {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #112e40;
+    background-color: #1ec984;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.button:hover {
+    background-color: #17a673;
+    transform: scale(1.05);
+    color: white;
+}
+
+.imageContainer {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1ec984;
+}
+
+.imageContainer img {
+    max-width: 100%;
+    border-radius: 10px;
+}

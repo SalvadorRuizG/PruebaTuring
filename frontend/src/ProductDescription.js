@@ -1,17 +1,16 @@
 import React from 'react';
-import './App.module.css'; // Asegúrate de agregar tus estilos
 
-const ProductDescription = ({ product }) => {
-    if (!product) return <div>Select a product to see the details</div>;
+const ProductDescription = ({ producto }) => {
+    if (!producto) return <div>Selecciona un producto para ver los detalles</div>;
 
     return (
         <div className="product-description">
-            <h2>{product.name}</h2>
-            <img src={product.imageUrl} alt={product.name} />
-            <p>{product.description}</p>
-            <button>Add to Cart</button>
+            <h2>{producto.nombre}</h2>
+            <p>{producto.descripcion}</p>
+            <p>Precio: ${producto.precio.toFixed(2)}</p>
         </div>
     );
 };
 
 export default ProductDescription;
+

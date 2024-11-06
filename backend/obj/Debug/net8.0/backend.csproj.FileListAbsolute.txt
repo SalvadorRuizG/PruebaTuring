@@ -32,3 +32,4 @@ C:\Users\Acer\Documents\ProyectoTuring\backend\obj\Debug\net8.0\backend.pdb
 C:\Users\Acer\Documents\ProyectoTuring\backend\obj\Debug\net8.0\backend.genruntimeconfig.cache
 C:\Users\Acer\Documents\ProyectoTuring\backend\obj\Debug\net8.0\ref\backend.dll
 C:\Users\Acer\Documents\ProyectoTuring\backend\bin\Debug\net8.0\backend.staticwebassets.runtime.json
+C:\Users\Acer\Documents\ProyectoTuring\backend\obj\Debug\net8.0\backend.sourcelink.json

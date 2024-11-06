@@ -1,3 +1,11 @@
+h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
 .header {
     width: 100%;
 }
@@ -23,39 +31,75 @@
 .nav li {
     cursor: pointer;
     font-size: 18px;
-    color: #112e40
+    color: #112e40;
 }
 
 .nav li:hover {
-    cursor: pointer;
-    font-size: 18px;
-    color: #1ec984
+    color: #1ec984;
 }
+
+.nav .active {
+    color: #1ec984;
+    font-weight: bold; /* Puedes ajustar para destacar más la sección activa */
+}
+
 
 .banner {
-    position: relative;
-    background-image: url('./banner.jpg'); /* Asegúrate de tener una imagen */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 700px;
+    color: white;
+    padding: 20px;
+    background: linear-gradient(to right, #112e40 50%, rgba(0, 0, 0, 0.5)), url('./banner.jpg');
     background-size: cover;
     background-position: center;
-    height: 300px;
-    color: white;
 }
 
-.overlay {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.textContainer {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.5);
     padding: 20px;
 }
 
-h1 {
-    font-size: 36px;
-    margin: 0;
+.imageContainer {
+    flex: 1;
+    display: none; /* Ocultamos imageContainer porque ahora la imagen está en el background */
 }
 
-p {
+.overlay h1 {
+    font-size: 50px;
+    margin: 0;
+    color: #1ec984;
+}
+
+.overlay p {
     font-size: 18px;
 }
+
+.button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color: #112e40;
+    background-color: #1ec984;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    transition: transform 0.3s ease; /* Añadido para animación suave */
+}
+
+.button:hover {
+    background-color: #17a673;
+    color: white;
+    transform: scale(1.1); /* Aumenta el tamaño del botón */
+}
+
+
+
