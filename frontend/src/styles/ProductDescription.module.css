@@ -1,0 +1,82 @@
+.productDescription {
+    flex: 1;  /* Ocupará el espacio disponible a la derecha */
+    max-width: 500px;  /* Limita el ancho de la descripción */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-right: 200px;
+    margin-top: 200px;  /* Esto agrega un poco de espacio en la parte superior */
+}
+
+.productDescription h2  {
+    margin: 0;
+    padding: 10px 0;
+    color: #17a673;
+    font-size: 35px;
+}
+
+.productDescription p {
+    margin: 0;
+    padding: 10px 0;
+    color: #112e40;
+    font-size: 25px;
+}
+
+.productInfoContainer {
+    display: flex;
+    flex-direction: column;  /* Coloca la imagen y el texto en columna */
+    justify-content: flex-start;
+    align-items: flex-start;  /* Alinea los elementos al inicio */
+    gap: 15px;  /* Espacio entre los elementos */
+}
+
+.productText {
+    text-align: left;  /* Alinea el texto a la izquierda */
+    width: 100%;  /* Asegura que el texto ocupe todo el espacio disponible */
+}
+
+.textWithImage {
+    display: flex;
+    align-items: center;  /* Alinea verticalmente la imagen y el texto */
+    gap: 10px;  /* Espacio entre la imagen y el texto */
+}
+
+.iconImage {
+    width: 50px;  /* Ajusta el tamaño de la imagen */
+    height: 50px;
+    object-fit: contain;  /* Mantiene la proporción de la imagen */
+}
+
+.button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #112e40;
+    background-color: #1ec984;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.button:hover {
+    background-color: #17a673;
+    transform: scale(1.05);
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .productDescription {
+        max-width: 100%;
+        margin-right: 0;
+        margin-top: 20px;
+        padding: 15px;
+    }
+
+    .productDescription h2 {
+        font-size: 24px;
+    }
+
+    .productDescription p {
+        font-size: 18px;
+    }
+}

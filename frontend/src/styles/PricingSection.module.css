@@ -90,5 +90,29 @@
 }
 
 
+@media (max-width: 768px) {
+    .pricingSection {
+        padding: 20px;
+    }
+
+    .featuresContainer {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .featureBox, .centerBox {
+        width: 100%;
+        height: auto; /* Ajuste automático de altura */
+        padding: 15px;
+    }
+
+    .featureBox h3 {
+        font-size: 18px;
+    }
+
+    .featureBox li {
+        font-size: 16px;
+    }
+}
 
 

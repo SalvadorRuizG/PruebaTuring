@@ -5,7 +5,7 @@ import ProductDescription from './ProductDescription';
 import TeamSection from './TeamSection';
 import PricingSection from './PricingSection';
 import Footer from './Footer';
-import './App.module.css';
+import styles from './App.module.css';
 
 const App = () => {
     const [activeSection, setActiveSection] = useState('Inicio');
@@ -19,7 +19,7 @@ const App = () => {
         <div className="App">
             <Header activeSection={activeSection} onSectionChange={handleSectionChange} />
             <div className="main-content">
-                <div className="catalog-description-container">
+                <div className={styles.catalogdescProd}>
                     <ProductCatalog onSelectProduct={setSelectedProduct} />
                     <ProductDescription producto={selectedProduct} />
                 </div>

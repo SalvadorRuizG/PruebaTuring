@@ -32,18 +32,31 @@ a {
     min-height: 100vh;
 }
 
-/* App.module.css */
-.catalog-description-container {
+.catalogdescProd {
     display: flex;
-    justify-content: space-between;
-    gap: 20px;
+    justify-content: flex-start; /* Alinea ambos elementos desde la izquierda */
+    align-items: flex-start; /* Alinea los elementos al inicio en el eje vertical */
+    gap: 20px;  /* Espacio entre ProductCatalog y ProductDescription */
+    width: 100%;
+    padding: 20px;
 }
 
-.product-catalog, .product-description {
-    flex: 1;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    background-color: #fff;
+@media (max-width: 768px) {
+    .App {
+        padding: 10px;
+    }
+
+    .catalogdescProd {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    h1, h2, h3 {
+        font-size: 24px; /* Reduce el tamaño de los encabezados */
+    }
+
+    p, a {
+        font-size: 16px; /* Reduce el tamaño del texto */
+    }
 }
 

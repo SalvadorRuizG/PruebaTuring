@@ -61,6 +61,18 @@
       "PackagePath": "staticwebassets\\ReactApp\\build\\static\\media\\logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg"
     },
     {
+      "Id": "C:\\Users\\Acer\\Documents\\ProyectoTuring\\backend\\wwwroot\\images\\background1.jpg",
+      "PackagePath": "staticwebassets\\images\\background1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Documents\\ProyectoTuring\\backend\\wwwroot\\images\\background2.jpg",
+      "PackagePath": "staticwebassets\\images\\background2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Documents\\ProyectoTuring\\backend\\wwwroot\\images\\background3.jpg",
+      "PackagePath": "staticwebassets\\images\\background3.jpg"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.backend.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
